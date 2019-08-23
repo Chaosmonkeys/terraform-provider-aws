@@ -1,9 +1,10 @@
 #
 # Provider Configuration
 #
-
 provider "aws" {
-  region = "us-west-2"
+  region  = "ap-southeast-1"
+  access_key = ""
+  secret_key = ""
 }
 
 # Using these data sources allows the configuration to be
